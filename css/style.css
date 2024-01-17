@@ -1,16 +1,11 @@
-.hero {
-  background-color: #252420;
-  color: #fff;
-
-}
-
-.hero-content {
-  width: 390px;
-
-}
-
+/* SITE-HEADER */
 .site-header {
   background-color: #fff;
+}
+
+/* NAV */
+.sitenav-list {
+  list-style: none;
 }
 
 .sitenav-link {
@@ -22,6 +17,34 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background-color: #252420;
+  color: #fff;
+}
+
+.hero-content {
+  width: 390px;
+
+}
+
+.hero-heading {
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2
+    /* 48px */
+    letter-spacing: 0.5px;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFF;
+  letter-spacing: 0.5px;
 }
 
 .main-link {
@@ -43,23 +66,7 @@
   background: #FF7500;
 }
 
-.hero-heading {
-  color: #FFF;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.2
-    /* 48px */
-    letter-spacing: 0.5px;
-}
-
-.hero-text {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #FFF;
-  letter-spacing: 0.5px;
-}
-
+/*FEATURES*/
 .feature-heading {
   width: 435px;
   font-size: 72px;
@@ -67,19 +74,21 @@
   letter-spacing: 0.5;
 }
 
+/*FEATURE*/
+.feature {
+  width: 340px;
+}
+
 .feature-icon-wrapper {
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);
-
 }
 
 .feature-title {
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.5px;
-
-
 }
 
 .feature-info {
@@ -88,26 +97,19 @@
   line-height: 1.5;
 }
 
-.feature {
-  width: 340px;
-
-}
-
+/*PROMO*/
 .promo {
   background-color: #252420;
   color: #FFF;
-
 }
 
 .promo-content {
   width: 440px;
-
 }
 
 .promo-heading {
   font-size: 40px;
   line-height: 48px;
-
 }
 
 .promo-text {
@@ -123,16 +125,15 @@
   width: 440px;
   height: 440px;
   object-fit: cover;
-
 }
 
+/*SITE-FOOTER*/
 .site-footer {
   background-color: #f8f8f8;
 }
 
 .site-footer ul {
   list-style: none;
-
 }
 
 .site-footer-divader {
@@ -140,18 +141,13 @@
   background-color: rgba(37, 36, 32, 0.6);
 }
 
-.sitenav-list {
-  list-style: none;
-
-}
-
-.site-footer-links{
+.site-footer-links {
   width: 224px;
 }
 
 .site-footer-links a {
   font-size: 16px;
   line-height: 19px;
- text-decoration: none;
+  text-decoration: none;
   color: #252420;
 }
