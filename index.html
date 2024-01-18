@@ -9,8 +9,10 @@
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
- <!--  CSS -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!--  CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -22,18 +24,18 @@
     <a href="index.html">
       <img src="img/logo.svg" alt="LOGO" width="227" height="60">
     </a>
-    <!--SITE NAV-->
-
-    <nav>
-      <ul class="sitenav-list">
-        <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-        <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-        <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-        <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-      </ul>
+    <div class="site-header-actions">
+      <!--SITE NAV-->
+      <nav>
+        <ul class="sitenav-list">
+          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+        </ul>
+      </nav>
       <a class="main-link" href="#">Royxatdan ot'ish</a>
-    </nav>
-
+    </div>
   </header>
 
   <!-- HERO -->
@@ -48,18 +50,16 @@
 
         </p>
         <a class="main-link" href="#">Buyurtma berish</a>
-
-        <img class="hero-img" src="img/python-book.jpg" alt="python rasm" width="510" height="510"
-          srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
       </div>
-
+      <img class="hero-img" src="img/python-book.jpg" alt="python rasm" width="510" height="510"
+        srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
     </section>
     <hr class="orang-line">
 
     <!-- FEATURES -->
     <section class="features">
       <h2 class="feature-heading">Nega aynan Akademnashr?</h2>
-      <ul>
+      <ul class="feature-list">
         <!-- FEATURE RASMI -->
         <li class="feature">
           <div class="feature-icon-wrapper">
@@ -113,7 +113,7 @@
 
   <!-- SITE FOOTER -->
   <footer class="site-footer">
-    <div>
+    <div class="site-footer-top">
       <a href="index.html">
 
         <img src="img/logo.svg" alt="LOGO" width="227" height="60">
@@ -121,7 +121,7 @@
 
       <!-- IJTIMOIY TARMOQLAR -->
 
-      <ul>
+      <ul class="site-footer-socials">
         <li>
           <a href="https://t.me/Akademnashr" target="_blank">
             <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +154,7 @@
     <hr class="site-footer-divader">
     <!-- LINKLAR -->
 
-    <div>
+    <div class="site-footer-bottom">
       <ul class="site-footer-links">
         <li><a href="#">Bosh sahifa</a></li>
         <li><a href="#">Kitoblar</a></li>
