@@ -6,6 +6,11 @@ body {
   letter-spacing: 0.5px;
 }
 
+*:focus{
+outline: 3px;px #ff7500 dotted;
+outline-offset: 3px;
+}
+
 /* SITE-HEADER */
 .site-header {
   display: flex;
@@ -224,6 +229,6 @@ color: #ff7500;
 color: #ff7500;
 }
 
-.site-footer-links  :focus{
+.site-footer-links  :active{
   opacity: 0.6;
 }
