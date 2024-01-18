@@ -7,8 +7,7 @@ body {
 }
 
 *:focus {
-  outline: 3px,
-   #ff7500 dotted;
+  outline: 3px dotted #ff7500;
   outline-offset: 3px;
 }
 
@@ -16,7 +15,7 @@ body {
 .site-header {
   padding-top: 16px;
   padding-bottom: 16px;
-  border-top: solid 5px;
+  border-top: solid 5px #ff7500;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,7 +45,7 @@ body {
 .sitenav-list {
   list-style: none;
   display: flex;
-  padding: 0;
+  padding: none;
 }
 
 .sitenav-link {
@@ -57,7 +56,8 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
-  transition: color 0.8 ease, opacity 0.4s ease;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
 }
 
 .sitenav-link:hover {
@@ -91,11 +91,10 @@ body {
     /* 48px */
 }
 
+/* MAIN LINK */
+
 .main-link {
-  padding-top: 12px;
-  padding-right: 12px;
-  padding-left: 12px;
-  padding-bottom: 12px;
+  padding: 12px, 24px;
   border-radius: 4px;
   font-weight: bold;
   display: inline-block;
@@ -104,7 +103,7 @@ body {
   background-color: #ff7500;
   text-decoration: none;
   color: #fff;
-  transition: opacity 0.4 ease;
+  transition: opacity 0.4s ease;
 }
 
 .main-link-buttom :hover {
@@ -145,7 +144,8 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  padding: 0;}
+  padding: 0;
+}
 
 /*FEATURE*/
 .feature {
@@ -175,7 +175,10 @@ body {
   color: #FFF;
   display: flex;
   justify-content: space-between;
-  align-items: center;border-radius: 12px;
+  align-items: center;
+  border-radius: 12px;
+  padding-top: 120px;
+  padding-bottom: 160px;
 }
 
 .promo-content {
