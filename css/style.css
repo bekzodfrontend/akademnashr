@@ -7,8 +7,8 @@ body {
 }
 
 *:focus {
-  outline: 3px;
-  px #ff7500 dotted;
+  outline: 3px,
+   #ff7500 dotted;
   outline-offset: 3px;
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 .feature-icon-wrapper {
-  background-repeat: 50%;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   width: 100px;
