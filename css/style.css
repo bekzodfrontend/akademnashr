@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 /* BODY */
 body {
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 1.5;
   font-family: Roboto;
@@ -11,19 +17,36 @@ body {
   outline-offset: 3px;
 }
 
+/* CONTAINER */
+.container {
+  width: 100 %;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* SITE-HEADER */
 .site-header {
   padding-top: 16px;
   padding-bottom: 16px;
   border-top: solid 5px #ff7500;
+  background-color: #fff;
+}
+
+.site-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
 }
 
 .logo-link {
   transition: opacity 0.4s ease;
+}
+
+.logo-link img {
+  display: block;
 }
 
 .logo-link:hover {
@@ -84,6 +107,10 @@ body {
   padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
+
+}
+
+.hero-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -119,7 +146,7 @@ body {
 /* MAIN LINK */
 
 .main-link {
-padding:  12px 24px;
+  padding: 12px 24px;
   border-radius: 4px;
   font-weight: bold;
   display: inline-block;
@@ -155,6 +182,8 @@ padding:  12px 24px;
   padding-bottom: 210px;
 }
 
+
+
 .feature-heading {
   margin: 0;
   margin-bottom: 72px;
@@ -182,6 +211,7 @@ padding:  12px 24px;
 }
 
 .feature-icon-wrapper {
+  margin-bottom: 32px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -192,26 +222,38 @@ padding:  12px 24px;
 }
 
 .feature-title {
+  margin-top: 0;
+  margin-bottom: 12px;
   font-size: 24px;
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.2;
 }
 
+.feature-info{
+  margin: 0;
+}
+
 /*PROMO*/
 .promo {
+
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.promo-inner{
+  padding: 64px;
   background-color: #252420;
   color: #FFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
-  padding-top: 120px;
-  padding-bottom: 160px;
 }
 
 .promo-content {
   width: 440px;
 }
+
 
 .promo-heading {
   margin-top: 0;
@@ -279,8 +321,13 @@ padding:  12px 24px;
 }
 
 .site-footer-socials a {
+  display: block;
   color: #252420;
 
+}
+
+.site-footer-socials svg {
+  display: block;
 }
 
 .site-footer-socials a :hover {
@@ -311,7 +358,15 @@ padding:  12px 24px;
   width: 224px;
 }
 
-.site-footer-links:last-child{
+.site-footer-links li{
+  margin-bottom: 16px;
+}
+
+.site-footer-links li:last-child{
+  margin-bottom: 0;
+}
+
+.site-footer-links:last-child {
   margin-right: 0;
 }
 
