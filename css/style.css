@@ -105,12 +105,13 @@ body {
 .hero {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #252420;
+
   color: #fff;
 
 }
 
 .hero-container{
+  background-color: #252420;
   display: flex;
   align-items: center;
   justify-content: space-between;
